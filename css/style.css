@@ -1,0 +1,75 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+h1.header {
+  color: #3949ab;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+
+.sect1 {
+  min-height: 400px;
+  position: relative;
+}
+
+.form-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 15px 2%;
+  width: 100%;
+  max-width: 700px;
+}
+
+.custom-title {
+  position: relative;
+}
+
+div.custom-title h2 {
+  font-size: 26px;
+  display: inline-block;
+  color: #777;
+  background: white;
+  position: relative;
+  z-index: 2;
+  padding-right: 10px;
+}
+
+div.custom-title div {
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  background: #999;
+  top: 53px;
+  z-index: 1;
+  left: 0;
+}
+
+.offset-equipe {
+  position: relative;
+  top: 85px;
+}
+
+.novo-container {
+  max-width: 800px;
+}
+
+@media (max-width: 600px) {
+  .offset-equipe {
+    top: 0;
+  }
+}
