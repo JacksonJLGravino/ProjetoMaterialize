@@ -2,7 +2,7 @@
 
 ## Sobre
 
-<p>Esse projeto foi feito com o materialize para aprender a usar o framework.</p>
+<p>Esse projeto foi feito com o materialize para praticar e aprender a usar esse framework.</p>
 
 ## Características
 
